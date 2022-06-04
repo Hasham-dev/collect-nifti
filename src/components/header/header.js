@@ -106,7 +106,7 @@ const Header = () => {
               className="burger_menu"
               toggled={isOpen}
               size={25}
-              color="#9130F8"
+              color="#FFFFFF"
               toggle={setOpen}
             />
           </div>
