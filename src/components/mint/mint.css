@@ -180,4 +180,62 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .animation {
+    display: none;
+  }
+
+  .MintButton {
+    font-size: 0.9rem;
+  }
+
+  .description_container h2 {
+    font-size: 25px;
+  }
+
+  .description_container p,
+  .description_container li {
+    font-size: 12px;
+  }
+
+  .timerContainer {
+    max-width: 100%;
+  }
+
+  .timerHelper {
+    font-size: 10.99px;
+    line-height: 11px;
+  }
+
+  .timerOption span:first-child {
+    font-size: 18.3835px;
+  }
+
+  .pulse {
+    margin-right: 10px;
+  }
+
+  .timerOption span:nth-child(2) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9.09775px;
+    line-height: 11px;
+  }
+
+  .countdownContainer {
+    gap: 5px;
+    padding-left: 10px;
+  }
+  @media only screen and (max-width: 600px) {
+    .MintButtonContainer {
+      flex-wrap: wrap;
+      margin-top: 10px;
+      justify-content: center;
+      gap: 20px;
+    }
+  }
+}
+
+a,
+a:visited {
+  color: var(--clr-neon);
 }
