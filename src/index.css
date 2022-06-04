@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  overflow-y: hidden;
+  background: url(./components/flippage/background.jpeg);
+  /* background-position: center center; */
+}
+
+:root {
+  --clr-white: hsl(269, 93%, 58%);
+  --clr-neon: hsl(0, 0%, 100%);
+  --clr-light-neon: hsla(0, 0%, 100%, 0.829);
+  --clr-light-white: hsla(269, 93%, 58%, 0.508);
+}
